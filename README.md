@@ -1,5 +1,5 @@
 # Kokoro-Reader
-Kokoro Tray is a minimal Epub Reader written in C# that utilizes [Kokoro-TTS](https://github.com/hexgrad/kokoro).
+Kokoro Reader is a minimal Epub Reader written in C# that utilizes [Kokoro-TTS](https://github.com/hexgrad/kokoro).
 
 ## Screenshots:
 [![Kokoro Reader 1](https://github.com/user-attachments/assets/f6e5b75a-e786-4dbf-9882-806a18f88204)](https://github.com/user-attachments/assets/e3ce9709-7acd-46fb-80d1-8ac38bf21b45) [![Kokoro Reader 2](https://github.com/user-attachments/assets/9b1beed2-97d1-44fb-938d-73a3772265b1)]([https://i.imgur.com/Ob4qAwu.png](https://github.com/user-attachments/assets/d3236a25-840f-4fe9-ac7f-87cfa823bc38))
