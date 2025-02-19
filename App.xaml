@@ -1,0 +1,30 @@
+<Application x:Class="KokoroReader.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:KokoroReader"
+             xmlns:converters="clr-namespace:KokoroReader.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Converters -->
+            <converters:FontSizeToZoomConverter x:Key="FontSizeToZoomConverter"/>
+            <converters:LineHeightConverter x:Key="LineHeightConverter"/>
+
+            <!-- Light Theme -->
+            <SolidColorBrush x:Key="BackgroundBrush" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="SidebarBrush" Color="#F5F5F5"/>
+            <SolidColorBrush x:Key="TextBrush" Color="#000000"/>
+            <SolidColorBrush x:Key="AccentBrush" Color="#673AB7"/>
+            <SolidColorBrush x:Key="BorderBrush" Color="#DDDDDD"/>
+            <SolidColorBrush x:Key="SecondaryTextBrush" Color="#666666"/>
+
+            <!-- Dark Theme Resources (Initially Collapsed) -->
+            <SolidColorBrush x:Key="BackgroundBrush.Dark" Color="#1E1E1E"/>
+            <SolidColorBrush x:Key="SidebarBrush.Dark" Color="#252526"/>
+            <SolidColorBrush x:Key="TextBrush.Dark" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="AccentBrush.Dark" Color="#9575CD"/>
+            <SolidColorBrush x:Key="BorderBrush.Dark" Color="#333333"/>
+            <SolidColorBrush x:Key="SecondaryTextBrush.Dark" Color="#BBBBBB"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application> 

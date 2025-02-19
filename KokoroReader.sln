@@ -1,0 +1,51 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KokoroReader", "KokoroReader\KokoroReader.csproj", "{12345678-1234-1234-1234-123456789012}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KokoroSharp", "KokoroSharp-custom\KokoroSharp.csproj", "{87654321-4321-4321-4321-210987654321}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VersOne.Epub", "EpubReader\Source\VersOne.Epub\VersOne.Epub.csproj", "{98765432-5432-5432-5432-987654321098}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharpText", "SharpText", "{704A47B3-2AD5-4FAF-BAF3-56F85D1DB08F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpText.Core", "SharpText\SharpText.Core\SharpText.Core.csproj", "{6DFCABAC-FF60-4DD3-806E-33C24B4C7501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpText.Veldrid", "SharpText\SharpText.Veldrid\SharpText.Veldrid.csproj", "{01BD9B0C-E732-46AD-B206-82C0994439B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12345678-1234-1234-1234-123456789012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87654321-4321-4321-4321-210987654321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87654321-4321-4321-4321-210987654321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87654321-4321-4321-4321-210987654321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87654321-4321-4321-4321-210987654321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98765432-5432-5432-5432-987654321098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98765432-5432-5432-5432-987654321098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98765432-5432-5432-5432-987654321098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98765432-5432-5432-5432-987654321098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFCABAC-FF60-4DD3-806E-33C24B4C7501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFCABAC-FF60-4DD3-806E-33C24B4C7501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFCABAC-FF60-4DD3-806E-33C24B4C7501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFCABAC-FF60-4DD3-806E-33C24B4C7501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BD9B0C-E732-46AD-B206-82C0994439B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BD9B0C-E732-46AD-B206-82C0994439B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BD9B0C-E732-46AD-B206-82C0994439B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BD9B0C-E732-46AD-B206-82C0994439B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DFCABAC-FF60-4DD3-806E-33C24B4C7501} = {704A47B3-2AD5-4FAF-BAF3-56F85D1DB08F}
+		{01BD9B0C-E732-46AD-B206-82C0994439B5} = {704A47B3-2AD5-4FAF-BAF3-56F85D1DB08F}
+	EndGlobalSection
+EndGlobal
